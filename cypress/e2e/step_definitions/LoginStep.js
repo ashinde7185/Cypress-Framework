@@ -5,7 +5,7 @@ import LoginPage from "../../Pages/LoginPage";
 const login = new LoginPage();
 
 Given("User navigate to facebook login page", () => {
-  cy.visit("https://example.com/login");
+  cy.visit("https://www.facebook.com/");
 });
 
 When("User enters username and password", () => {
